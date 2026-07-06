@@ -2,6 +2,9 @@
 
 A structured, open-source dataset assessing the regulatory environment for Bitcoin and digital assets across Africa. Moving beyond standard corporate compliance trackers, the **Sheria Index** specifically evaluates how state-level legal frameworks impact the financial sovereignty, self-custody rights, and privacy of individuals and civil society organisations (CSOs).
 
+> 📌 **Project Status: Work in Progress (Beta)**  
+> The Sheria Index is actively expanding. The initial data repository is undergoing continuous verification as regulatory landscapes shift across the continent. We are systematically updating country rows, and community contributions or verified regional corrections are highly encouraged.
+
 ---
 
 ## Index Overview
