@@ -19,6 +19,10 @@ The Sheria Index bridges the gap between complex statutory instruments and opera
 
 ## Dataset Schema
 
+[📊 Download Raw CSV Data](data/sheria_index.csv)
+
+The core repository database is maintained as a lightweight CSV file located at `data/sheria_index.csv`. It contains the following structural metrics:
+
 The core repository database is maintained as a lightweight CSV file located at `data/sheria_index.csv`. It contains the following structural metrics:
 
 | Column Header | Data Type | Description |
