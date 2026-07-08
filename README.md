@@ -37,12 +37,11 @@ It is designed to answer a question that existing regulatory trackers do not:
 This includes:
 
 - NGOs
-- journalists
+- journalists & researchers
 - activists
 - human rights defenders
 - whistleblowers
-- LGBTQI+ organisations
-- community organisations
+- community organisers & organisations
 - independent media
 
 Most existing crypto regulatory analysis is produced for exchanges, institutional investors, or legal compliance teams.
