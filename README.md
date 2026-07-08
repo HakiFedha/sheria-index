@@ -22,7 +22,6 @@ The Sheria Index is a companion research project to the Africa Financial Tyranny
 The latest dataset is available as:
 
 - **CSV:** https://github.com/HakiFedha/sheria-index/blob/main/data/sheria_index.csv
-- **Raw CSV:** https://raw.githubusercontent.com/HakiFedha/sheria-index/main/data/sheria_index.csv
 
 ---
 
