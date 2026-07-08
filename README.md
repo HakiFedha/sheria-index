@@ -1,64 +1,221 @@
-# Sheria Index: Africa Bitcoin & Digital Asset Regulatory Frameworks
+# Sheria Index: Africa Bitcoin and Digital Assets Regulatory Frameworks
 
-A structured, open-source dataset assessing the regulatory environment for Bitcoin and digital assets across Africa. Moving beyond standard corporate compliance trackers, the **Sheria Index** specifically evaluates how state-level legal frameworks impact the financial sovereignty, self-custody rights, and privacy of individuals and civil society organisations (CSOs).
-
-> 📌 **Project Status: Work in Progress (Beta)**  
-> The Sheria Index is actively expanding. The initial data repository is undergoing continuous verification as regulatory landscapes shift across the continent. We are systematically updating country rows, and community contributions or verified regional corrections are highly encouraged.
+**Methodology and Framework**  
+**Version 1.0 | July 2026**
 
 ---
 
-## Index Overview
+## About the Name
 
-The Sheria Index bridges the gap between complex statutory instruments and operational reality on the ground. By mapping indicators like self-custody laws, peer-to-peer (P2P) trading restrictions, and identity-mapping mandates, the index provides researchers, human rights defenders, and developers with a clear risk assessment metric for local operating environments.
+*Sheria* means **law** in Swahili.
 
-### Civil Society Risk Level Definitions
+The Sheria Index is a companion research project to the Africa Financial Tyranny Index (AFTI), maintained by HakiFedha as part of its commitment to producing open, freely available research that helps civil society actors across Africa understand and navigate the financial and legal environments in which they operate.
 
-*   **High Risk:** Explicit prohibitions, active state weaponisation of financial infrastructure, or severe surveillance mandates (e.g., draft border key disclosures or real-time identity mapping of all transactions).
-*   **Medium Risk:** Legal or newly regulated environments carrying active surveillance flags (e.g., law enforcement freezing P2P accounts without formal charges, or strict VASP frameworks with heavy monitoring).
-*   **Low-Medium Risk:** Emerging or transitional frameworks where individual P2P/non-custodial acquisition remains lower-risk, or where regulations target formal intermediaries rather than end-users.
-*   **Low Risk:** Established, clear, and stable regulatory environments with robust rule of law and no documented history of financial repression targeting civic space through digital asset mechanisms.
-
----
-
-## Dataset Schema
-
-[📊 Download Raw CSV Data](data/sheria_index.csv)
-
-The core repository database is maintained as a lightweight CSV file. It contains the following structural metrics:
-
-The core repository database is maintained as a lightweight CSV file located at `data/sheria_index.csv`. It contains the following structural metrics:
-
-| Column Header | Data Type | Description |
-| :--- | :--- | :--- |
-| `incident_id` | Alphanumeric | Unique record identifier (e.g., `SI-001`). |
-| `country` | String | Target African nation. |
-| `civil_society_risk_level` | String | Evaluated qualitative score (`High`, `Medium`, `Low-Medium`, `Low`). |
-| `civil_society_notes` | String | Granular analysis of civic space, surveillance, and enforcement impacts. |
-| `self_custody_status` | String | Legal and practical status of holding private keys. |
-| `p2p_status` | String | Direct peer-to-peer trading status and active local channels. |
-| `legal_status` | String | Overall legal classification of digital assets within the jurisdiction. |
-| `kyc_aml_required` | String | Mandatory customer due diligence and data retention obligations. |
-| `regulatory_classification` | String | Legal treatment of digital assets (e.g., securities, financial products). |
-| `vasp_licensing` | String | Licensing or registration requirements for service providers. |
-| `tax_treatment` | String | Capital gains, income, or transaction tax structures applied to digital assets. |
-| `key_legislation` | String | Primary gazetted acts, bills, or central bank directives. |
-| `enforcement_notes` | String | Documented state actions, court precedents, or operational bottlenecks. |
-| `region` | String | Geographic African sub-region. |
-| `last_updated` | Date | Year and month of the latest verified record revision (`YYYY-MM`). |
-| `sources` | String | Semicolon-separated URLs pointing to primary legislative texts or verified reports. |
+> **📌 Project Status: Beta / Work in Progress**
+>
+> The Sheria Index is actively expanding. The initial data repository is undergoing continuous verification as regulatory landscapes shift across the continent. We are systematically updating country entries, and community contributions or verified regional corrections are highly encouraged.
 
 ---
 
-## Contributing
+## Data
 
-We welcome updates, corrections, and new country data from local legal scholars, researchers, and human rights advocates across the continent. 
+The latest dataset is available as:
 
-To contribute:
-1. **Fork** the repository.
-2. Edit or append data rows directly inside `data/sheria_index.csv`. Ensure text fields containing internal commas are properly wrapped in double quotes (`"..."`).
-3. Submit a **Pull Request** with clear references to official gazetted text, central bank notices, or landmark judicial precedents.
+- **CSV:** https://github.com/HakiFedha/sheria-index/blob/main/data/sheria_index.csv
+- **Raw CSV:** https://raw.githubusercontent.com/HakiFedha/sheria-index/main/data/sheria_index.csv
 
 ---
+
+# Purpose
+
+The Sheria Index tracks the regulatory status of Bitcoin and digital assets across Africa.
+
+It is designed to answer a question that existing regulatory trackers do not:
+
+> **What does the regulatory landscape mean specifically for civil society actors?**
+
+This includes:
+
+- NGOs
+- journalists
+- activists
+- human rights defenders
+- whistleblowers
+- LGBTQI+ organisations
+- community organisations
+- independent media
+
+Most existing crypto regulatory analysis is produced for exchanges, institutional investors, or legal compliance teams.
+
+The Sheria Index is produced for people for whom Bitcoin is not primarily a financial opportunity, but a tool of financial sovereignty, operational continuity, and resistance to censorship.
+
+---
+
+# The Bitcoin Lens
+
+African regulatory frameworks generally govern **digital assets** broadly, using terms such as:
+
+- virtual assets
+- crypto assets
+- digital currencies
+
+Bitcoin is rarely singled out in legislation as its own legal category.
+
+The Sheria Index documents the regulatory landscape as governments have defined and legislated it while analysing the implications specifically through a Bitcoin lens, consistent with HakiFedha's mission and scope.
+
+We maintain that Bitcoin is fundamentally different from the broader digital asset category because it possesses unique properties including:
+
+- decentralisation
+- fixed supply
+- censorship resistance
+- absence of an issuing authority
+
+Where regulations apply broadly to digital assets, we assess their practical implications for Bitcoin use, including:
+
+- self-custody
+- peer-to-peer acquisition
+- cross-border transfers
+
+---
+
+# Scope
+
+The Sheria Index covers:
+
+- legal status of Bitcoin and digital assets
+- regulatory classification
+- responsible regulatory authorities
+- VASP licensing requirements
+- KYC and AML obligations
+- tax treatment
+- legal status of self-custody
+- legal status of peer-to-peer trading
+- civil society risk assessment
+- practical implications for civil society
+- key legislation
+- enforcement notes
+- supporting sources
+
+The index does **not** provide:
+
+- investment advice
+- exchange-specific compliance guidance
+- institutional legal advice except where directly relevant to civil society use
+
+---
+
+# Civil Society Risk Classification
+
+| Level | Description |
+|---------|-------------|
+| **Low** | No formal restrictions on Bitcoin use. No documented pattern of financial repression. P2P acquisition available without significant surveillance risk. |
+| **Low-Medium** | Regulatory framework developing but no material restrictions. Some surveillance risk through conventional banking channels. Monitor developments. |
+| **Medium** | Regulatory obligations reduce anonymity for exchange-based acquisition. Some documented financial pressure on civil society. P2P acquisition recommended. |
+| **Medium-High** | Tightening regulation combined with documented financial repression. Operational security strongly recommended. Self-custody essential. |
+| **High** | Active documented financial repression. Regulation creates significant surveillance obligations or is selectively enforced. Bitcoin self-custody and P2P are critical tools. |
+| **Critical** | Extreme financial repression documented at scale. State financial surveillance targets civil society. Bitcoin self-custody becomes a survival tool and conventional financial channels should be treated as compromised. |
+
+---
+
+# Data Fields
+
+| Field | Description |
+|--------|-------------|
+| country | Country name |
+| region | African sub-region |
+| legal_status | Overall legal status of Bitcoin and digital assets |
+| regulatory_classification | Government classification |
+| vasp_licensing | Licensing requirements |
+| kyc_aml_required | Whether KYC/AML obligations apply |
+| tax_treatment | Tax treatment |
+| self_custody_status | Legal status of self-custody |
+| p2p_status | Legal status of peer-to-peer trading |
+| civil_society_risk_level | Risk classification |
+| civil_society_notes | Plain-language assessment |
+| key_legislation | Primary legal instruments |
+| enforcement_notes | Known enforcement patterns |
+| last_updated | Date of latest review |
+| sources | Supporting sources |
+
+---
+
+# Source Standards
+
+Every country entry requires at least one credible primary or secondary source.
+
+Accepted sources include:
+
+- National legislation
+- Regulatory instruments
+- Central bank statements
+- Financial regulatory authorities
+- FATF mutual evaluations
+- FATF grey-list announcements
+- Peer-reviewed academic publications
+- Reports from credible international organisations
+- Credible legal journalism
+- Credible financial journalism
+
+The following are **not** accepted as primary evidence:
+
+- unverified social media posts
+- exchange promotional material
+- anonymous blogs
+- sources that cannot be independently verified
+
+---
+
+# Handling Ambiguity
+
+Many African countries have no comprehensive digital asset legislation.
+
+Rather than assuming Bitcoin is either legal or prohibited, the Sheria Index records the absence of a legal framework as a finding in itself.
+
+We distinguish between:
+
+| Classification | Meaning |
+|----------------|---------|
+| Explicit prohibition | Law specifically prohibits Bitcoin or digital assets |
+| Implicit prohibition | No explicit ban, but regulatory guidance treats crypto as outside permitted financial activities |
+| Legal grey zone | No formal framework and inconsistent enforcement |
+| Partial recognition | Certain activities (such as taxation) recognised without comprehensive regulation |
+| Legal, regulated | Comprehensive legal framework exists |
+
+Where law and enforcement differ significantly, the Sheria Index documents both.
+
+---
+
+# Update Cycle
+
+The Sheria Index is updated on a rolling basis as regulatory developments occur.
+
+Each country entry includes a **last_updated** field.
+
+A formal version release is published whenever **five or more country entries** have been materially revised.
+
+---
+
+# Limitations
+
+The Sheria Index is intended for research and educational purposes.
+
+It is **not legal advice**.
+
+African regulatory environments evolve rapidly, and some jurisdictions have limited publicly available documentation.
+
+Users should verify the current legal position before relying on this index for operational decisions and seek qualified legal advice where appropriate.
+
+---
+
+# Contributions
+
+The Sheria Index is published under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.
+
+Contributions, corrections, and verified updates are welcome.
+
+Visit: **https://hakifedha.org**
+
+or open an issue or pull request on this repository.
 
 ## License
 
