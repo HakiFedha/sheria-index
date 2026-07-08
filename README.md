@@ -50,6 +50,32 @@ The Sheria Index is produced for people for whom Bitcoin is not primarily a fina
 
 ---
 
+# Methodology Principles
+
+The Sheria Index follows five core research principles:
+
+### Evidence-Based
+
+Each country assessment is based on verifiable sources, including legislation, regulatory instruments, official government statements, international assessments, and credible research.
+
+### Country-Specific
+
+Regulatory environments differ significantly across African countries. Each entry is independently assessed based on the country's own laws, institutions, enforcement practices, and civil society context.
+
+### Reproducible
+
+The methodology, data fields, classification framework, and sources are publicly available so that researchers and communities can review, verify, and contribute improvements.
+
+### Transparent
+
+The Sheria Index distinguishes between what laws formally state, how regulators interpret those laws, and how enforcement occurs in practice.
+
+### Continuously Updated
+
+Digital asset regulation is evolving rapidly. Country entries are reviewed periodically, with updates recorded through the `last_updated` field and formal version releases when significant changes occur.
+
+---
+
 # The Bitcoin Lens
 
 African regulatory frameworks generally govern **digital assets** broadly, using terms such as:
@@ -205,6 +231,23 @@ African regulatory environments evolve rapidly, and some jurisdictions have limi
 Users should verify the current legal position before relying on this index for operational decisions and seek qualified legal advice where appropriate.
 
 ---
+
+
+# Related Resources
+
+The Sheria Index is part of HakiFedha's broader open research ecosystem focused on Bitcoin, financial freedom, privacy, and civil society resilience.
+
+Related resources:
+
+- **Africa Financial Tyranny Index (AFTI)**  
+  Documents verified incidents of financial repression affecting civil society actors across Africa.  
+  https://github.com/HakiFedha/africa-financial-tyranny-index
+
+- **Africa Bitcoin Remittance and Off-Ramp Directory**  
+  A practical directory documenting Bitcoin access, remittance, and off-ramp options across African countries.  
+  https://hakifedha.org/tools/remittance-directory
+
+  ---
 
 # Contributions
 
