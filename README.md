@@ -240,11 +240,11 @@ The Sheria Index is part of HakiFedha's broader open research ecosystem focused 
 Related resources:
 
 - **Africa Financial Tyranny Index (AFTI)**  
-  Documents verified incidents of financial repression affecting civil society actors across Africa.  
+  Documents verified incidents of financial repression affecting civil society actors across Africa: 
   https://github.com/HakiFedha/africa-financial-tyranny-index
 
 - **Africa Bitcoin Remittance and Off-Ramp Directory**  
-  A practical directory documenting Bitcoin access, remittance, and off-ramp options across African countries.  
+  A practical directory documenting Bitcoin access, remittance, and off-ramp options across African countries: 
   https://hakifedha.org/tools/remittance-directory
 
   ---
