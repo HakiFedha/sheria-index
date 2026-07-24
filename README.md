@@ -260,4 +260,4 @@ or open an issue or pull request on this repository.
 
 ## License
 
-This directory is open-source. The mapping data and documentation are available under the terms of the central [HakiFedha LICENSE](https://github.com/HakiFedha/.github/blob/main/profile/LICENSE).
+The mapping data and documentation are available under the terms of the central [HakiFedha LICENSE](https://github.com/HakiFedha/.github/blob/main/profile/LICENSE).
